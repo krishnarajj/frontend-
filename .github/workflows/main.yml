@@ -13,9 +13,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       
-    - name: Set API URL Secret
-      run: "echo 'export const environment = { production: false, apiUrl: ''${{ secrets.API_URL }}''};' > src/environments/environment.ts"
-
 
     - name: Use Node.js 16.x
       uses: actions/setup-node@v2
