@@ -1,27 +1,40 @@
-# Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+**Angular README**
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Angular Student Management Application
 
-## Code scaffolding
+This is an Angular-based front-end application for managing student records. It communicates with a Laravel API to perform CRUD operations on student records.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+1. Install Angular CLI:
+   ```shell
+     npm install -g @angular/cli
+   ```
+Create a new Angular project:
+```shell
+ng new front-end
+```
+Go to the environment.ts file in environment forlder and change the apiurl accordinly for local development the url of ur laravel app would be http://localhost:8000/api/student
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+Start the Angular application:
+```shell
+ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Access the application at http://localhost:4200.
 
-## Running end-to-end tests
+Features
+View a list of students.
+Add new students.
+Edit existing students.
+Delete students.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Usage
+  Use the Angular application to manage student records by performing CRUD operations.
+  
+# Laravelcode for this project
+The laravel application code and instruction is given in the below github repository:
+https://github.com/krishnarajj/laravel-code.git
